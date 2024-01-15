@@ -14,6 +14,9 @@ The Employee Management System is a comprehensive web application designed to st
 *Frontend:*
 - **Angular:** The frontend of the application is developed using Angular, a powerful and dynamic front-end framework. Angular facilitates the creation of a responsive and interactive user interface, enabling seamless communication with the backend.
 
+![Web capture_11-1-2024_143434_localhost](https://github.com/adityasurya4103/employee-management-system-angular-spring-boot-mysql/assets/97177344/ccd9a275-7629-4261-bc65-fba9495dd537)
+
+
 **Key Features:**
 
 1. **Home Page:**
