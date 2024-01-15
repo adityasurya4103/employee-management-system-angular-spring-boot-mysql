@@ -43,3 +43,8 @@ The backend, powered by Spring Boot, handles data processing, business logic, an
 Angular, on the frontend, provides a dynamic and responsive user interface. It facilitates the creation of modular components and services, enhancing code maintainability and reusability. Angular's two-way data binding ensures real-time updates between the user interface and backend data.
 
 In conclusion, the Employee Management System offers a robust solution for organizations to efficiently manage their workforce. The use of Spring Boot, Angular, and MySQL ensures a scalable, secure, and user-friendly platform for handling various employee-related tasks.
+
+
+
+
+
