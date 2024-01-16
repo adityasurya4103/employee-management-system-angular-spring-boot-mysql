@@ -1,0 +1,206 @@
+
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+   
+}
+
+
+/* body{
+    background-color: black;
+} */
+#p1{
+    font-size: 3.1rem;
+}
+
+#p2{
+    font-size: 2.5rem;
+}
+ /* div {
+    display: block;
+}  */
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.carousel-caption{
+    font-size: 2.9rem;
+    height: 29rem;
+} 
+/* ul {
+   
+    margin: 2rem 0; 
+    padding: 0; 
+  }
+
+  li {
+    list-style-type: style circle;
+    font-size: 1.2rem; 
+    margin-bottom: 0.5rem; Margin using rem units for spacing
+  } */
+
+/* .s1{
+
+    background-image: linear-gradient(to right,white,black);
+} */
+
+
+.divMain{
+    display: flex;
+   
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+section {
+    position: relative;
+    width: 100%;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.section-2  {
+   background-color: white;
+    height: -20rem;
+    
+}
+.section-2 .fit-image{
+   
+   height: 40rem;
+ 
+}
+
+
+
+ .text{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+}
+
+.text #t1{
+   
+    margin-left: 7rem;
+    font-size: 1.5rem;
+ 
+}
+
+
+ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 1rem 3rem; /* Add some margin using rem units for spacing */
+    padding: 0; /* Remove default padding */
+  }
+
+  li {
+    font-size: 1.5rem; /* Font size using rem units */
+    margin-bottom: 0.2rem; /* Margin using rem units for spacing */
+  }
+
+  ul.category {
+    margin-left: 0; /* Reset margin for the category list */
+  }
+
+  ul.category li {
+    font-weight: bold; /* Make category items bold */
+    font-size: 1.5rem; /* Font size for category items */
+    margin-bottom: 0.2rem; /* Adjust margin for category items */
+  }
+
+  ul.subcategory {
+    list-style-type: disc; /* Use 'disc' for filled circles for subcategories */
+    margin-left: 2rem; /* Indent subcategories */
+  }
+
+  ul.subcategory li {
+    font-weight: normal; /* Reset font weight for subcategory items */
+    font-size: 1.3rem; /* Font size for subcategory items */
+  }
+
+
+
+.about{
+    background-color: white;
+}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 18px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color:black;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+
+
+

@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 238, 238);
+}
+
+.footer {
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    /* height: 40px; */
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+}
+    
+
+/* .container{
+    background-color: white;
+} */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

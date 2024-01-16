@@ -1,0 +1,44 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+.full-width-button {
+    width: 100%; 
+}  
+
+
+form {
+    /* border: 1px solid #454545;  */
+    padding: 20px; /* Add some padding for better visual appearance */
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    border: 1px solid #000000; 
+    padding: 20px; /* Add some padding for better visual appearance */
+}
+/* 
+.lable{
+    border: 1px solid #000000;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+input{
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+select{
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}

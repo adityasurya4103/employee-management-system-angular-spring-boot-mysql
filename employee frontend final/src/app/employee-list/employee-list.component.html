@@ -1,0 +1,60 @@
+<br>
+<br>
+<!-- <h1>Employee List</h1> -->
+
+<div class="container">
+
+    <div >
+        <form (ngSubmit)="goToEmployee()" >
+            <div class="form-group col-md-6 inline ">
+                
+                <input  [(ngModel)]="EnteredID" type="text" class="form-control" id="id" name="id" placeholder="Search by ID">
+                <button class="btn btn-secondary " type="submit">Search</button>
+            </div>
+        </form>
+
+    </div>
+    <br>
+    <br>
+<div>
+<table style="margin-bottom: 50px;" class=" table table-responsive table-striped  border-dark">
+
+    <thead class="table-dark ">
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <!-- <th>Salary</th> -->
+            <th>Department</th>
+            <th>Designation</th>
+            <!-- <th>Joining Date</th> -->
+            <th>Actions</th>
+        </tr>
+
+    </thead> 
+
+
+    <tbody>
+        <tr *ngFor = "let employee of employees">
+            <td>{{employee.id}}</td>
+            <td>{{employee.fname}}</td>
+            <td>{{employee.lname}}</td>
+            <td>{{employee.email}}</td>
+            <!-- <td>{{employee.salary}}</td> -->
+            <td>{{employee.department}}</td>
+            <td>{{employee.designation}}</td>
+            <!-- <td>{{employee.joiningDate}}</td> -->
+            <td>
+                <button (click) = "updateEmployee(employee.id)" class = "btn  btn-secondary btn-sm"> Update</button>
+                <button (click) = "deleteEmployee(employee.id)" class = "btn btn-danger btn-sm" style="margin-left: 10px"> Delete</button>
+                <button (click) = "detailsOfEmployee(employee.id)" class = "btn btn-success btn-sm " style="margin-left: 10px"> View</button>
+            </td>
+        </tr>
+    </tbody>
+
+
+</table>
+<br><br><br><br>
+</div>
+

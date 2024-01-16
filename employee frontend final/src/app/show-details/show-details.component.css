@@ -1,0 +1,29 @@
+table {
+    width: 40%;
+    margin-left: 8rem;
+    margin-top: 0.5rem;
+    border-collapse: collapse;
+    outline: 1px solid black; 
+  }
+#btn1{
+  margin-left: 8rem;
+
+}
+
+#btn2{
+  margin-left: 1rem;
+}
+  .box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+
+  img{
+    margin-top: 0.3rem;
+    width: 15rem;
+    height: 12rem;
+  }
+
+  
